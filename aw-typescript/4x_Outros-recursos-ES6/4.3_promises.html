@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <script>
+        const resposta = fetch('http://api.postmon.com.br/v1/cep/24240290');
+
+        resposta.then(data => data.json())
+                .then(data => { console.log(data) });
+
+
+        const respostaERRO = fetch('http://api.postmon.com.br/v1/cepXXXX/24240290');
+
+        respostaERRO.then(data => data.json())
+        .then(data => { console.log(data) })
+        .catch(erro => {console.log(erro)});
+
+
+    </script>
+</body>
+</html>
