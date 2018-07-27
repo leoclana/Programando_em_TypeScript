@@ -1,0 +1,34 @@
+1.3. Instalando o Node.js e NPM 
+	http://www.algaworks.com/aulas/1429/instalando-o-nodejs-e-npm/
+
+	Node JS Baixar e instalar: 
+		https://nodejs.org/en
+		Ex: node-v8.10.0-x64.msi
+			node-v6.13.1-x64.msi
+
+	NPM (gerenciador de pacotes): já vem no Node.
+	
+	Teste: 
+		> node -v
+		> npm -v
+
+
+1.4. Conhecendo e instalando o Visual Studio Code
+	http://www.algaworks.com/aulas/1430/conhecendo-e-instalando-o-visual-studio-code/
+	
+	https://code.visualstudio.com
+
+1.5. Instalando o TypeScript
+	http://www.algaworks.com/aulas/1431/instalando-o-typescript/
+	
+	> npm install -g typescript
+	Ps.: o "-g" é para ser instalado global = no sistema inteiro, NÃO somente no diretório atual!
+	
+	Teste: 
+		> tsc -v
+
+
+2.1 - Declaração de variáveis (var, let e const) CRIANDO O PROJETO
+	http://www.algaworks.com/aulas/1433/declaracao-de-variaveis-var-let-e-const/
+	- tsconfig.json
+	- .vscode
